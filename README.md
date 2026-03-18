@@ -1,27 +1,28 @@
-# Sauce Demo - Web Automation Framework
+# Sauce Demo - End-to-End Automation Framework
 
-## 📌 Project Overview
-A comprehensive automated testing suite for the **Sauce Demo** e-commerce platform. This project demonstrates an end-to-end user journey, from secure login to a successful checkout process.
+## 🚀 Project Overview
+This is a robust web automation suite built for the **Sauce Demo** e-commerce platform. It covers the complete user journey from authentication to order completion, ensuring a seamless and bug-free shopping experience.
+
+---
 
 ## 🛠️ Tech Stack
 * **Language:** Java 17
-* **Automation Tool:** Selenium WebDriver (v4.x)
+* **Framework:** Selenium WebDriver 4.x
 * **Test Runner:** TestNG
 * **Build Tool:** Maven
 * **Design Pattern:** Page Object Model (POM)
 
-## 🚀 Key Framework Features
-* **Page Object Model:** Separates UI locators from test logic for 100% maintainability.
-* **Synchronization:** Utilizes **Explicit Waits** (WebDriverWait) to handle dynamic element loading without using flaky `Thread.sleep`.
-* **Assertions:** Comprehensive validation of cart totals, product names, and success messages using TestNG Assertions.
-* **Clean Code:** Adheres to DRY (Don't Repeat Yourself) principles and proper Java naming conventions.
+---
 
-## 📁 Project Structure
-- `src/main/java/pages`: Contains Page Object classes and locators.
-- `src/test/java/tests`: Contains TestNG test scripts and assertions.
-- `pom.xml`: Dependency management for Selenium and TestNG.
+## ✨ Key Features
+* **Encapsulation:** Used POM to separate UI locators from test logic, significantly enhancing code reusability and maintainability.
+* **Stability:** Implemented **Explicit Waits** (WebDriverWait) for smart element synchronization, eliminating the need for flaky `Thread.sleep`.
+* **Assertions:** Integrated TestNG assertions for automated validation of product names, prices, and checkout success messages.
+* **Clean Code:** Adheres to industry-standard naming conventions and organized project architecture.
 
-## ⚙️ How to Run
-1. Clone the repository: `git clone [https://github.com/prateeksachan510/Sauce-Demo-Automation.git]`
-2. Navigate to the project folder.
-3. Run the command: `mvn test`
+---
+
+## 💻 How to Run
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/prateeksachan510/Sauce-Demo-Automation.git]
